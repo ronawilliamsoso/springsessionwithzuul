@@ -1,0 +1,25 @@
+spring:
+  application:
+     name: order-management-ms
+  session:
+    store-type: redis
+  redis:
+    host: localhost
+    port: 6379      
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+server:
+  port: 8081
+  
+security:
+  user:
+    name: user
+    password: password
+    
+logging:
+  level:
+    org: DEBUG
