@@ -10,5 +10,5 @@
 
  you can also see the sessionid stored in redis with commands:
 
- >redis-cli
- >keys *
+ redis-cli
+ keys *
